@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+.session {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow-y: hidden;
+  background-size: cover; /* Cover the entire div */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Adjust as needed */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.session .header {
+  font-family: "Poppins-Regular", Helvetica;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding or adjust as needed */
+  color: white;
+  background: transparent; /* No background for the header */
+}
+
+.session .button-link {
+  color: white;
+}
+
+.session .logo {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.session .logo-img {
+  width: 125px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.session .logo h1 {
+  margin: 0;
+}
+
+.session .main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.session .title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.session .rounded-box {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 35vw;
+  height: 70vh;
+  overflow-y: auto;
+}
+
+.rounded-box2 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 35vw;
+  height: 21vh;
+  overflow-y: auto;
+}
+
+.notes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.notes-header h2 {
+  margin: 0;
+}
+
+.edit-pencil {
+  height: 20px; /* Adjust size as needed */
+  width: 20px; /* Adjust size as needed */
+  cursor: pointer;
+}
+
+.notes-section {
+  flex: 1;
+}
+
+.session .rounded-box3 {
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 35vw;
+  height: 36vh;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.select-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.session select{
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.session .session-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.session-button:hover {
+  background-color: #0056b3;
+}
+
+
+.session .data-table {
+  border-collapse: collapse; /* Remove default table borders */
+  width: 100%;
+}
+
+.session .data-table th {
+  text-align: left;
+  padding: 8px;
+}
+
+.session .data-table th button {
+  background: blue; /* Blue button background color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.session .blue-button {
+  background: blue; /* Blue button background color */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: right;
+}
+.session .data-table th:not(:first-child) {
+  padding-left: 20px;
+}
+
+.session .data-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ccc; /* Row borders */
+}
+
+.session .data-table tbody tr:last-child td {
+  border-bottom: none; /* Remove bottom border from the last row */
+}
+
